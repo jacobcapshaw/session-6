@@ -5,7 +5,7 @@ angular.module('recipeApp').component('recipeList', {
             {
                 name: 'recipe1309',
                 title: 'Lasagna',
-                date: '2013-09-01',
+                date: '2016-09-01',
                 description: 'Lasagna noodles piled high and layered full of three kinds of cheese to go along with the perfect blend of meaty and zesty, tomato pasta sauce all loaded with herbs.',
                 image: 'lasagne.png'
             },
@@ -21,7 +21,7 @@ angular.module('recipeApp').component('recipeList', {
             {
                 name: 'recipe1210',
                 title: 'Guacamole',
-                date: '2012-10-01',
+                date: '2015-10-01',
                 description: 'Guacamole is definitely a staple of Mexican cuisine. Even though Guacamole is pretty simple, it can be tough to get the perfect flavor - with this authentic Mexican guacamole recipe, though, you will be an expert in no time.',
                 image: 'guacamole.png'
             },
@@ -34,5 +34,6 @@ angular.module('recipeApp').component('recipeList', {
                 image: 'hamburger.png'
             }
         ]
+        this.orderProp = 'date';
     }
 });
